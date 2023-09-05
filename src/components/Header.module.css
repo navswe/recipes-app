@@ -1,0 +1,38 @@
+header {
+  --color: hsl(var(--primary-color), var(--l));
+  background-color: var(--color);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  position: sticky; top:0
+}
+
+header h2 {
+  font-size: 24px;
+  color: white;
+}
+
+header h5 {
+  font-size: 20px;
+  color: white;
+}
+
+
+.nav_btn {
+  --color: hsl(var(--primary-color), var(--l));
+  background-color: var(--color);
+  color: white;
+  transition: all 0.15s ease-in-out;
+}
+
+.nav_btn:hover {
+  --color: hsl(var(--primary-color), calc(var(--l) - 5%));
+  background-color: black;
+}
+
+
